@@ -29,7 +29,7 @@ VAR CONSTANT
     Gc_uiNumOfRows: UINT := 8;
     Gc_uiNumOfColumns: UINT := 7;
     Gc_uiLengthOfValue: UINT := 80;
-    xPippo : bool := True;
+    xPippo : BOOL := TRUE;
 END_VAR
 __IMPLEMENTATION__
 IF NOT x_Initialized THEN
